@@ -5,8 +5,7 @@ import Kantin from "./pages/Kantin";
 import Home from "./pages/Home";
 import ProductList from "./pages/ProductList";
 import SearchBar from "./pages/SearchBar";
-
-
+import Contact from "./pages/Contact";
 function App() {
   return (
     <div>

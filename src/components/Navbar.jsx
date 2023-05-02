@@ -5,39 +5,33 @@ import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   const navigate = useNavigate();
-  const [searchTerm, setSearchTerm] = useState('');
 
   return (
-    <div className="container flex justify-around py-8 mx-auto bg-white">
+    <div className="container flex justify-around py-4 mx-auto bg-white">
       <div class="flex items-center">
         <img
           alt="..."
           src={require("../Img/logo-black.jpg")}
           className="rounded-full max-w-full mx-auto"
-          style={{ maxWidth: "120px" }}
+          style={{ maxWidth: "100px" }}
         />
       </div>
       <div class="items-center hidden space-x-8 lg:flex">
+        
         <button
           onClick={() => {
             navigate("/");
           }}
         >
-          Home
+          <p class="items-center text-slate-500 hover:text-blue-600">Home</p>
         </button>
         <button
           onClick={() => {
             navigate("/kantin");
           }}
         >
-          Canteen
-        </button>
-        <button
-          onClick={() => {
-            navigate("/product");
-          }}
-        >
-          Products
+        <p class="items-center text-slate-500 hover:text-blue-600">Canteen</p>
+
         </button>
         
         <button
@@ -45,7 +39,7 @@ function Navbar() {
             navigate("/productlist");
           }}
         >
-          ProductsList
+          <p class="items-center text-slate-500 hover:text-blue-600">Product</p>
         </button>
       </div>
     </div>
