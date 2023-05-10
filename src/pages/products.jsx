@@ -1,93 +1,93 @@
 export const PRODUCTS = [
   {
-    name: "curry",
+    name: "Chicken Katsu",
     category: "Food",
     price: "20.000",
-    productImg: require("../Img/katsu.jpg"),
-    desk: ""
-  },
-  {
-    name: "katsu",
-    category: "Food",
-    price: "20.000",
-    productImg: require("../Img/curry.jpg"),
+    productImg: require("../Img/bentoento.png"),
     desk: "Bento bento"
   },
   {
     name: "ayam geprek",
     category: "Food",
     price: "25.000",
-    productImg: require("../Img/curry.jpg"),
-    desk: ""
+    productImg: require("../Img/AYAM GEPREK.jpg"),
+    desk: "Bento bento"
+  },
+  {
+    name: "Ayam Salted Egg",
+    category: "Food",
+    price: "20.000",
+    productImg: require("../Img/dalas.png"),
+    desk: "Dallas Chicken"
+  },
+  {
+    name: "Ayam Cheese Blackpapper",
+    category: "Food",
+    price: "20.000",
+    productImg: require("../Img/DalasTwo.png"),
+    desk: "Dallas Chicken"
   },
   {
     name: "Thai tea",
     category: "Drink",
-    price: "25.000",
-    productImg: require("../Img/katsu.jpg"),
-    desk: ""
+    price: "15.000",
+    productImg: require("../Img/13.png"),
+    desk: "Dallas Chicken"
   },
   {
     name: "Jus mangga",
     category: "Drink",
     price: "10.000",
-    productImg: require("../Img/curry.jpg"),
-    desk: ""
+    productImg: require("../Img/Jus Mangga.png"),
+    desk: "Extra Juice"
   },
   {
     name: "Jus sirsak",
     category: "Drink",
     price: "10.000",
-    productImg: require("../Img/katsu.jpg"),
-    desk: ""
+    productImg: require("../Img/Jus Mangga.png"),
+    desk: "Extra Juice"
   },
   {
-    name: "boba",
-    category: "Drink",
-    price: "18.000",
-    productImg: require("../Img/curry.jpg"),
-    desk: ""
+    name: "Cilok Campur",
+    category: "Snack",
+    price: "7000",
+    productImg: require("../Img/12.png"),
+    desk: "Cilok Kuah Prasmanan"
   },
   {
-    name: "milkshake",
+    name: "Thaitea Jelly",
     category: "Drink",
-    price: "18.000",
-    productImg: require("../Img/katsu.jpg"),
-    desk: ""
+    price: "12.000",
+    productImg: require("../Img/14.png"),
+    desk: "Ngeteh"
+  },
+  {
+    name: "Matcha",
+    category: "Drink",
+    price: "22.000",
+    productImg: require("../Img/14.png"),
+    desk: "Ngeteh"
   },
   {
     name: "Kebab",
     category: "Snack",
     price: "15.000",
-    productImg: require("../Img/curry.jpg"),
-    desk: ""
+    productImg: require("../Img/Lol.png"),
+    desk: "Hoyya hoyya kebab"
   },
   {
     name: "Mojito",
     category: "Drink",
-    price: "20.000",
-    productImg: require("../Img/katsu.jpg"),
-    desk: ""
-  },
-  {
-    name: "Es coklat roti",
-    category: "Drink",
     price: "10.000",
-    productImg: require("../Img/curry.jpg"),
-    desk: ""
+    productImg: require("../Img/mojito.jpg"),
+    desk: "Hoyya Kebab"
   },
   {
     name: "Churros",
     category: "Snack",
-    price: "10.000",
-    productImg: require("../Img/katsu.jpg"),
-    desk: ""
-  },
-  {
-    name: "Burger",
-    category: "Snack",
-    price: "10.000",
-    productImg: require("../Img/curry.jpg"),
-    desk: ""
+    price: "12.000",
+    productImg: require("../Img/CHURROS.jpg"),
+    desk: "Luv Cocoa"
   },
 ];

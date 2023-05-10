@@ -233,9 +233,8 @@ function Kantin() {
           </a> */}
         </div>
       </div>
-
     </div>
-
+      
     
   );
 }
