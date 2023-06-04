@@ -51,7 +51,7 @@ export const PRODUCTS = [
   {
     name: "Cilok Campur",
     category: "Snack",
-    price: "7000",
+    price: "7.000",
     productImg: require("../Img/12.png"),
     desk: "Cilok Kuah Prasmanan"
   },

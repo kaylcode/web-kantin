@@ -5,18 +5,21 @@ import Kantin from "./pages/Kantin";
 import Home from "./pages/Home";
 import ProductList from "./pages/ProductList";
 import SearchBar from "./pages/SearchBar";
-import Contact from "./pages/Contact";
+import About from "./pages/About";
+
 function App() {
   return (
     <div>
-      <Navbar />;
+      <Navbar />
       <Routes>
         <Route path="/kantin" element={<Kantin />} />
         <Route path="/" element={<Home />} />
         <Route path="/productlist" element={<ProductList />} />
         <Route path="/searchbar" element={<SearchBar />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
+    
   );
 }
 

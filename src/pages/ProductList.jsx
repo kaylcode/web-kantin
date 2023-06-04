@@ -13,25 +13,25 @@ function ProductList() {
   };
 
   const handleCategory = (event) => {
-    setCategory(event.target.value);
-  };
+    const selectedCategory = event.target.value;
+    setCategory(selectedCategory);
+  }
 
   const handleSort = (event) => {
-    setSortType(event.target.value);
+    const selectedValue = event.target.getAttribute("value");
+    setSortType(selectedValue);
   };
 
-  const filteredProducts = PRODUCTS.filter((product) =>
-    product.name.toLowerCase().includes(searchTerm.toLowerCase())
-  ).filter((product) => (category ? product.category === category : true));
-
-  const sortedProducts = filteredProducts.sort((a, b) =>
-    sortType === "asc" ? a.price - b.price : b.price - a.price
+  
+  let sortedProducts = [...PRODUCTS]
+  sortedProducts.sort((a, b) =>
+  sortType === "asc" ? a.price - b.price : b.price - a.price
   );
-
+  
   return (
     <div className="container mx-auto py-4">
       <form onSubmit={handleSearch} className="mb-4 justify-center">
-        <div className="flex justify-between items-start">
+        <div className="justify-between items-start">
           <input
             type="text"
             placeholder="Search products"
@@ -41,48 +41,81 @@ function ProductList() {
           />
           <button
             type="submit"
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">           
+            className="text-white bg-cyan-400 hover:bg-yellow-200 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
             Search
           </button>
         </div>
       </form>
 
-      <div className="mb-4">
-        <label htmlFor="category-select" className="mr-2">
-          Filter by category:
-        </label>
-        <select
-          id="category-select"
-          value={category}
-          onChange={handleCategory}
-          className="bg-gray-200 py-2 px-4 rounded"
-        >
-          <option value="">All categories</option>
-          <option value="Food">Food</option>
-          <option value="Drink">Drink</option>
-          <option value="Snack">Snack</option>
-        </select>
-      </div>
+      <div className="w-full mx-auto">
+        <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
+          <button
+            type="button"
+            className="text-white hover:text-black border border-blue-600 bg-cyan-400 hover:bg-pink-300 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900 dark:focus:ring-blue-800"
+            onClick={handleCategory}
+            value=""
+          >
+            All categories
+          </button>
+          <button
+            type="button"
+            className="text-white hover:text-black border border-blue-600 bg-cyan-400 hover:bg-pink-300 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:border-blue-500 dark:text-cyan-300 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900 dark:focus:ring-blue-800"
+            onClick={handleCategory}
+            value="Food"
+          >
+            Foods
+          </button>
+          <button
+            type="button"
+            className="text-white hover:text-black border border-blue-600 bg-cyan-400 hover:bg-pink-300 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900 dark:focus:ring-blue-800"
+            onClick={handleCategory}
+            value="Drink"
+          >
+            Drinks
+          </button>
 
-      <div className="mb-4">
-        <label htmlFor="sort-select" className="mr-2">
-          Sort by price:
-        </label>
-        <select
-          id="sort-select"
-          value={sortType}
-          onChange={handleSort}
-          className="bg-gray-200 py-2 px-4 rounded"
-        >
-          <option value="asc">low price</option>
-          <option value="desc">High Price</option>
-        </select>
+          <button
+            type="button"
+            className="text-white hover:text-black border border-blue-600 bg-cyan-400 hover:bg-pink-300 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900 dark:focus:ring-blue-800"
+            onClick={handleCategory}
+            value="Snack"
+          >
+            Snacks
+          </button>
+        </div>
+        <div className="mb-4">
+          <div className="flex">
+            <button
+              className={`mr-2 py-2 px-4 rounded hover:bg-yellow-200 ${
+                sortType === "asc" ? "bg-cyan-400  text-white" : "bg-gray-200"
+              }`}
+              onClick={handleSort}
+              value="asc"
+            >
+              <span>&#x2191;</span>
+            </button>
+            <button
+              className={`py-2 px-4 rounded hover:bg-yellow-200 ${
+                sortType === "desc" ? "bg-cyan-400 text-white" : "bg-gray-200"
+              }`}
+              onClick={handleSort}
+              value="desc"
+            >
+              <span>&#x2193;</span>
+            </button>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {sortedProducts
+          .filter((product) =>
+            product.name.toLowerCase().includes(searchTerm.toLowerCase())
+          )
+          .filter((product) => (category ? product.category === category : true))
+          .map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
       </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {sortedProducts.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
       </div>
     </div>
   );
