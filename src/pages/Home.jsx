@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div>
       <main>
@@ -16,7 +16,7 @@ function Home() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://i.postimg.cc/3xk55VZ5/banner1.jpg')",
+                "url('https://im.ezgif.com/tmp/ezgif-1-f39f9548d0.jpg')",
             }}
           >
             <span
@@ -283,9 +283,7 @@ function Home() {
               </div>
 
               <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-grey-700 font-bold py-2 px-4 transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
-                <p
-                 
-                >
+                <p>
                   <img
                     class="rounded-t-lg"
                     src={require("../Img/6.jpg")}
@@ -302,9 +300,9 @@ function Home() {
           </div>
           <div className="flex justify-center pt-8">
             <button
-                 onClick={() => {
-                  navigate("/kantin");
-                }}
+              onClick={() => {
+                navigate("/kantin");
+              }}
               className="inline-flex justify-center items-center px-3 py-2 text-sm font-medium text-center text-white bg-cyan-400 rounded-lg hover:bg-yellow-200 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
@@ -362,13 +360,13 @@ function Home() {
                       style={{ maxWidth: "120px" }}
                     /> */}
                     <div className="pt-6 text-center">
-                      <h5 className="text-xl font-bold">Aisyah</h5>
+                      <h5 className="text-xl font-bold">Joantika</h5>
                       <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                         Web Dev
                       </p>
                       <div className="mt-6">
                         <a
-                          href="https://instagram.com/aisyahkyl?igshid=NTc4MTIwNjQ2YQ=="
+                          href="https://instagram.com/joanntika?igshid=YmMyMTA2M2Y="
                           type="button"
                           class="m-1 h-9 w-9 rounded-full border-2 border-black uppercase leading-normal text-black transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
                           data-te-ripple-init
@@ -430,13 +428,13 @@ function Home() {
                       style={{ maxWidth: "120px" }}
                     /> */}
                     <div className="pt-6 text-center">
-                      <h5 className="text-xl font-bold">Joantika</h5>
+                      <h5 className="text-xl font-bold">Aisyah</h5>
                       <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                         web dev
                       </p>
                       <div className="mt-6">
                         <a
-                          href="https://instagram.com/joanntika?igshid=YmMyMTA2M2Y="
+                          href="https://instagram.com/aisyahkyl?igshid=NTc4MTIwNjQ2YQ=="
                           type="button"
                           class="m-1 h-9 w-9 rounded-full border-2 border-black uppercase leading-normal text-black transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
                           data-te-ripple-init

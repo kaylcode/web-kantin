@@ -25,7 +25,7 @@ function About() {
 
             <div class="w-full lg:-mt-96 lg:w-2/6 px-8 py-12 ml-auto bg-cyan-300 rounded-2xl">
               <div class="flex flex-col text-white">
-                <h1 class="font-bold text-lg my-4 text-justify">Our Time</h1>
+                <h2 class="font-bold text-2xl my-4 text-justify">Our Time</h2>
                 <p class="text-gray-400">Monday 08:00 AM - 9:30 PM</p>
                 <p class="text-gray-400">Tuesday 08:00 AM - 9:30 PM</p>
                 <p class="text-gray-400">Wednesday 08:00 AM - 9:30 PM</p>
@@ -38,7 +38,7 @@ function About() {
                     <i class="fas fa-map-marker-alt pt-2 pr-2" />
                   </div>
                   <div class="flex flex-col">
-                    <h2 class="text-2xl">Map</h2>
+                    <h2 class="font-bold text-2xl my-4 text-justify">Location</h2>
                     <p class="text-gray-400">
                       Baloi-Sei Ladi, Jl. Gajah Mada, Tiban Indah, Kec.
                       Sekupang, Kota Batam, Kepulauan Riau 29426
@@ -51,29 +51,11 @@ function About() {
                     <i class="fas fa-phone-alt pt-2 pr-2" />
                   </div>
                   <div class="flex flex-col">
-                    <h2 class="text-2xl">Call Us</h2>
+                    <h2 class="font-bold text-2xl my-4 text-justify">Call Us</h2>
                     <p class="text-gray-400">Tel:(0778) 7437111</p>
                   </div>
                 </div>
 
-                <div class="flex my-4 w-2/3 lg:w-1/2">
-                  <a
-                    href="https://www.facebook.com/ENLIGHTENEERING/"
-                    target="_blank"
-                    rel="noreferrer"
-                    class="rounded-full bg-white h-8 w-8 inline-block mx-1 text-center pt-1"
-                  >
-                    <i class="fab fa-facebook-f text-blue-900" />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/company/enlighteneering-inc-"
-                    target="_blank"
-                    rel="noreferrer"
-                    class="rounded-full bg-white h-8 w-8 inline-block mx-1 text-center pt-1"
-                  >
-                    <i class="fab fa-linkedin-in text-blue-900" />
-                  </a>
-                </div>
               </div>
             </div>
           </div>
