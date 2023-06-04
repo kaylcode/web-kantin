@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Kantin() {
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-30 px-4 my-20">
     <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mx-auto justify-center">
       <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-grey-700 font-bold py-2 px-4 transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
         <a href="#">
