@@ -16,7 +16,8 @@ function Home() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://im.ezgif.com/tmp/ezgif-1-f39f9548d0.jpg')",
+                "url('../Img/kantinpastel.jpg')",
+                
             }}
           >
             <span
