@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/web-kantin/static/css/main.21f412b1.css",
+    "main.js": "/web-kantin/static/js/main.26286a1d.js",
+    "static/js/787.378b430e.chunk.js": "/web-kantin/static/js/787.378b430e.chunk.js",
+    "static/media/12.png": "/web-kantin/static/media/12.a4318af12396e87681fb.png",
+    "static/media/DalasTwo.png": "/web-kantin/static/media/DalasTwo.0f96d6ee9c62e1b2840c.png",
+    "static/media/Lol.png": "/web-kantin/static/media/Lol.4f63bad19cb1a45caa33.png",
+    "static/media/13.png": "/web-kantin/static/media/13.f59dfe94b60b8641484e.png",
+    "static/media/14.png": "/web-kantin/static/media/14.2f002d1d27450426b884.png",
+    "static/media/dalas.png": "/web-kantin/static/media/dalas.fb36bc98071253c405fa.png",
+    "static/media/bentoento.png": "/web-kantin/static/media/bentoento.77e3a82908667f9bd354.png",
+    "static/media/Jus Mangga.png": "/web-kantin/static/media/Jus Mangga.3fbdcaefa11518e00303.png",
+    "static/media/4_1.jpg": "/web-kantin/static/media/4_1.11f3db951a44e55f8f0b.jpg",
+    "static/media/6.jpg": "/web-kantin/static/media/6.d36e561b77ab7a3bf7aa.jpg",
+    "static/media/5_1.jpg": "/web-kantin/static/media/5_1.d0d13dad144218a7bcb7.jpg",
+    "static/media/2.jpg": "/web-kantin/static/media/2.1564493538a8ac425a87.jpg",
+    "static/media/3.jpg": "/web-kantin/static/media/3.478a599756b95a86c0f3.jpg",
+    "static/media/1.jpg": "/web-kantin/static/media/1.25c81d0ec75132c673db.jpg",
+    "static/media/CHURROS.jpg": "/web-kantin/static/media/CHURROS.b3c3c0d797c7c2bdd5bd.jpg",
+    "static/media/ce676bc5-f049-41c6-8628-41b18fbad4e9 1 (1).jpg": "/web-kantin/static/media/ce676bc5-f049-41c6-8628-41b18fbad4e9 1 (1).40c996dadd2f93356e08.jpg",
+    "static/media/AYAM GEPREK.jpg": "/web-kantin/static/media/AYAM GEPREK.4955df686fbdf2d3d194.jpg",
+    "static/media/logocyan.png": "/web-kantin/static/media/logocyan.16551de897e7ff256436.png",
+    "static/media/mojito.jpg": "/web-kantin/static/media/mojito.f970243afed62b2bbeb6.jpg",
+    "index.html": "/web-kantin/index.html",
+    "main.21f412b1.css.map": "/web-kantin/static/css/main.21f412b1.css.map",
+    "main.26286a1d.js.map": "/web-kantin/static/js/main.26286a1d.js.map",
+    "787.378b430e.chunk.js.map": "/web-kantin/static/js/787.378b430e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21f412b1.css",
+    "static/js/main.26286a1d.js"
+  ]
+}
