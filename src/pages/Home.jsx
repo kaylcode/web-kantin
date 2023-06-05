@@ -17,7 +17,6 @@ function Home() {
             style={{
               backgroundImage:
                 "url('https://res.cloudinary.com/doa9wwlxq/image/upload/v1685944373/wr4lwiohoeqbkyjukpsw.jpg')",
-                
             }}
           >
             <span
@@ -174,13 +173,13 @@ function Home() {
           <div className="container mx-auto px-4">
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mx-auto justify-center">
               <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-grey-700 font-bold py-2 px-4 transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
-                <a href="#">
+                <p>
                   <img
                     class="rounded-t-lg"
                     src={require("../Img/3.jpg")}
                     alt=""
                   />
-                </a>
+                </p>
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Bento bento
@@ -197,13 +196,13 @@ function Home() {
               </div>
 
               <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-grey-700 font-bold py-2 px-4 transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
-                <a href="/kantin">
+                <p>
                   <img
                     class="rounded-t-lg"
                     src={require("../Img/2.jpg")}
                     alt=""
                   />
-                </a>
+                </p>
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Dallas Chicken
@@ -219,13 +218,13 @@ function Home() {
               </div>
 
               <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-grey-700 font-bold py-2 px-4 transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
-                <a href="#">
+                <p>
                   <img
                     class="rounded-t-lg"
                     src={require("../Img/1.jpg")}
                     alt=""
                   />
-                </a>
+                </p>
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Juice
@@ -241,13 +240,13 @@ function Home() {
               </div>
 
               <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-grey-700 font-bold py-2 px-4 transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
-                <a href="#">
+                <p>
                   <img
                     class="rounded-t-lg"
                     src={require("../Img/5_1.jpg")}
                     alt=""
                   />
-                </a>
+                </p>
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Beringin signature drink
@@ -262,13 +261,13 @@ function Home() {
               </div>
 
               <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-grey-700 font-bold py-2 px-4 transition ease-in-out duration-300 transform hover:-translate-y-1 hover:scale-110">
-                <a href="#">
+                <p>
                   <img
                     class="rounded-t-lg"
                     src={require("../Img/4_1.jpg")}
                     alt=""
                   />
-                </a>
+                </p>
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Luv Cocoa
@@ -344,7 +343,7 @@ function Home() {
               ></polygon>
             </svg>
           </div>
-          <div className="pt-20 pb-48">
+          <div className="pt-20 pb-20">
             <div className="container mx-auto px-2">
               <div className="flex flex-wrap justify-center text-center mb-24">
                 <div className="w-full lg:w-6/12 px-2">
@@ -522,6 +521,20 @@ function Home() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className="container mx-auto px-2">
+            <div className="flex flex-wrap justify-center text-center mb-2">
+              <div className="w-full lg:w-6/12 px-2">
+                <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                <span class="block text-sm text-slate-800 sm:text-center font-semibold dark:text-gray-400">
+                  © 2023{" "}
+                 
+                    IOT™
+                  
+                  . All Rights Reserved.
+                </span>
               </div>
             </div>
           </div>
