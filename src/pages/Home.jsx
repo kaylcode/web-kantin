@@ -16,7 +16,7 @@ function Home() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://i.postimg.cc/d1ZXVkNw/kantinpastel.jpg')",
+                "url('https://postimg.cc/MMxtsT8F')",
                 
             }}
           >
