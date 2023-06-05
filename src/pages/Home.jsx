@@ -31,7 +31,7 @@ function Home() {
                   <h1 className="text-white font-semibold text-5xl">
                     KANTIN UIB
                   </h1>
-                  <p className="mt-4 text-lg text-gray-300">
+                  <p className="mt-4 text-lg text-slate-50">
                     "Part of the secret of success is to eat what you like and
                     let the food fight it out inside."
                   </p>
