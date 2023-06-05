@@ -28,10 +28,10 @@ function Home() {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white font-semibold text-5xl">
+                  <h1 className="text-cyan-200 font-semibold text-5xl my-20">
                     KANTIN UIB
                   </h1>
-                  <p className="mt-4 text-lg text-slate-50">
+                  <p className="mt-4 text-xl text-cyan-200 font-bold">
                     "Part of the secret of success is to eat what you like and
                     let the food fight it out inside."
                   </p>
