@@ -69,34 +69,7 @@ function Navbar() {
             <path d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
         </button>
-        <div class="hidden mobile-menu">
-          <ul class="">
-            <li class="active">
-              <a
-                href="/"
-                class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="/kantin"
-                class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
-              >
-                Canteen
-              </a>
-            </li>
-            <li>
-              <a
-                href="/productlist"
-                class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
-              >
-                Product
-              </a>
-            </li>
-          </ul>
-        </div>
+        
       </div>
     </div>
   );
