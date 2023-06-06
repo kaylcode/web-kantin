@@ -7,7 +7,7 @@ export const PRODUCTS = [
     desk: "Bento bento"
   },
   {
-    name: "ayam geprek",
+    name: "Ayam Geprek",
     category: "Food",
     price: "25.000",
     productImg: require("../Img/AYAM GEPREK.jpg"),
