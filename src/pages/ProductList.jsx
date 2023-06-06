@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ProductCard from "./Productcard";
+import ProductCard from "./productcard";
 import { PRODUCTS } from "./products";
 
 function ProductList() {
