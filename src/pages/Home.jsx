@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import kantin from "../Img/kantinpastel.jpg"
 
 function Home() {
   const navigate = useNavigate();
@@ -15,8 +16,7 @@ function Home() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage:
-                "url('https://res.cloudinary.com/doa9wwlxq/image/upload/v1685944373/wr4lwiohoeqbkyjukpsw.jpg')",
+              backgroundImage: `url(${kantin})`
             }}
           >
             <span
@@ -227,7 +227,7 @@ function Home() {
                 </p>
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Juice
+                     Star Juice
                   </h5>
 
                   <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
