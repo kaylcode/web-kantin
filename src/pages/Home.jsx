@@ -28,7 +28,7 @@ function Home() {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-green-200 font-semibold text-5xl my-20">
+                  <h1 className="text-green-100 font-semibold text-5xl my-20">
                     KANTIN UIB
                   </h1>
                   <p className="mt-4 text-xl text-green-200 font-bold">
